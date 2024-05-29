@@ -1,0 +1,18 @@
+{
+  "name": "wetter-app",
+  "version": "1.0.0",
+  "description": "Wetter App mit Jest und Gauge+Taiko Tests",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll",
+    "gauge": "gauge run specs"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.3.1",
+    "cross-env": "^7.0.3",
+    "jest": "^27.5.1",
+    "node-fetch": "^2.7.0",
+    "taiko": "^1.2.0"
+  }
+}
